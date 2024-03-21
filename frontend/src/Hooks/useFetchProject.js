@@ -9,7 +9,7 @@ const useFetchProjects = () => {
     const fetchProjects = async () => {
 
       try {
-        const response = await axios.get('http://localhost:3000/api/projects');
+        const response = await axios.get('https://sagars-portfolio.onrender.com/api/projects');
         // setProjects(response.data.projectCards);
         setProjects(response.data);
         setLoading(false);

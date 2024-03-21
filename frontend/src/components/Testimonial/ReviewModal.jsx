@@ -31,7 +31,7 @@ function ReviewModal({ onClose, isOpen }) {
     try {
       // Send a POST request to your API endpoint
       const response = await axios.post(
-        "http://localhost:3000/api/testimonials",
+        "https://sagars-portfolio.onrender.com/api/testimonials",
         {
           name: name,
           review: review,

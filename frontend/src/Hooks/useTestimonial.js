@@ -8,7 +8,7 @@ const useTestimonials = () => {
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/testimonials');
+        const response = await fetch('https://sagars-portfolio.onrender.com/api/testimonials');
         if (!response.ok) {
           throw new Error('Failed to fetch testimonials');
         }

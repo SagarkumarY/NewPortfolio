@@ -10,7 +10,7 @@ const useFetchSkills = () => {
   useEffect(() => {
     const fetchSkills = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/skills");
+        const response = await fetch("https://sagars-portfolio.onrender.com/api/skills");
         if (!response.ok) {
           throw new Error("Failed to fetch skills");
         }

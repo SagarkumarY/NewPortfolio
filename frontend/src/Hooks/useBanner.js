@@ -7,7 +7,7 @@ const useBannerData = () => {
     useEffect(() => {
         const fetchBannerData = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/fetchheading');
+                const response = await fetch('https://sagars-portfolio.onrender.com/api/fetchheading');
                 if (!response.ok) {
                     throw new Error('Failed to fetch banner data');
                 }
